@@ -1,0 +1,152 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#header {
+    background: #8DB596;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+ 
+.container { 
+    width: 90%;
+    margin: 0 auto;
+}
+
+label.logo{
+    color: #fff;
+    display: flex;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+
+}
+
+img {
+    max-width: 320px;
+    border-radius: 15px;
+    margin-right: 30px;
+    padding: 0;
+    line-height: 50%;
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainNav{}
+
+.mainNav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.mainNav ul li {
+    float: left;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.mainNav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.homeimg img {
+    max-width: 100%;
+    vertical-align: top;
+    border-radius: 0%;
+    display: flex;  
+}
+
+.about-home {
+    height: 100vh;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    font-size: 18px;
+    font-family:sans-serif;
+    margin: 80px;
+    width: 70%;
+}
+
+.about-ambition{
+    height: 100vh;
+    align-items: center;
+    text-align:left;
+    display: flex;
+    font-size: 18px;
+    font-family:sans-serif;
+    margin: 70px;
+    width: 80%;
+}
+
+.about-hobbies{
+    height: 100vh;
+    align-items: center;
+    text-align: right;
+    display: flex;
+    font-size: 18px;
+    font-family:sans-serif;
+    margin: 70px;
+    width: 80%;
+}
+.about-education {
+    height: 100vh;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    font-size: 18px;
+    font-family:sans-serif;
+    margin: 70px;
+    width: 80%;
+    justify-content: center;
+}
+
+.fa-facebook {
+    font-size: 50px;
+    color: black;
+}
+
+.fa-pinterest {
+    font-size: 50px;
+    color: black;
+}
+
+.fa-square-instagram {
+    font-size: 50px;
+    align-items: center;
+    color: black;
+    margin: 40px;
+
+}
+
+.arrow {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+}
+
+.arrow a{
+    height: 40px;
+    width: 37px;
+    text-align: center;
+    background: #d18968;
+    display: block;
+    border-radius: 3px;
+}
+
+.arrow a span {
+    color: #fff;
+    line-height: 40px;
+    font-size: 25px;
+}
+
